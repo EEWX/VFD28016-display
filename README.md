@@ -1,5 +1,5 @@
 # VFD28016-display
-MN28016 based display board development
+
 I came accros a cheap VFD display online several month ago, the only information the seller can provide is the model MN28016. After studied the limited information I found online, I designed a PCB to drive the VFD display.
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
