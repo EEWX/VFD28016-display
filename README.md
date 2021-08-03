@@ -12,7 +12,7 @@ I came accros a cheap VFD display online several month ago, the only information
 * Expansion port available
 ## Appearance
 
-## licensing
+## Licensing
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
 This work is licensed under a
