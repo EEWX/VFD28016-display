@@ -2,9 +2,17 @@
 ## Background
 I came accros a cheap VFD display online several month ago, the only information the seller can provide is the model MN28016. After studied the limited information I found online, I designed a PCB to drive the VFD display.
 ## Main Features
-* Adjustable BIAS voltage
+* Adjustable bias voltage
+* Adjustable filament current
+* Alternating current driving for better brightness consistency
+* 5V supply
+* Onboard USB to UART converter
+* Onboard NRF24L01 module
+* Onboard humidity and temperature sensor
+* Expansion port available
+## Appearance
 
-
+## licensing
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
 This work is licensed under a
