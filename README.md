@@ -1,7 +1,7 @@
 # VFD28016-display
-## Background/
+## Background
 I came accros a cheap VFD display online several month ago, the only information the seller can provide is the model MN28016. After studied the limited information I found online, I designed a PCB to drive the VFD display./
-## Main Features/
+## Main Features
 * Adjustable BIAS voltage
 
 
