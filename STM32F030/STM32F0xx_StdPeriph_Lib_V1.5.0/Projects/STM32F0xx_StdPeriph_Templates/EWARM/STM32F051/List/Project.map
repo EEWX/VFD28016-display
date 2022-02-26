@@ -1,0 +1,228 @@
+###############################################################################
+#
+# IAR ELF Linker V8.32.1.169/W32 for ARM                  17/Sep/2020  21:12:04
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Exe\Project.out
+#    Map file     =  
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\List\Project.map
+#    Command line =  
+#        -f C:\Users\ADMINI~1\AppData\Local\Temp\EW7E77.tmp
+#        (E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Obj\main.o
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Obj\startup_stm32f051.o
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Obj\stm32f0xx_adc.o
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Obj\stm32f0xx_cec.o
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Obj\stm32f0xx_comp.o
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Obj\stm32f0xx_crc.o
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Obj\stm32f0xx_dac.o
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Obj\stm32f0xx_dbgmcu.o
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Obj\stm32f0xx_dma.o
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Obj\stm32f0xx_exti.o
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Obj\stm32f0xx_flash.o
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Obj\stm32f0xx_gpio.o
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Obj\stm32f0xx_i2c.o
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Obj\stm32f0xx_it.o
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Obj\stm32f0xx_iwdg.o
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Obj\stm32f0xx_misc.o
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Obj\stm32f0xx_pwr.o
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Obj\stm32f0xx_rcc.o
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Obj\stm32f0xx_rtc.o
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Obj\stm32f0xx_spi.o
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Obj\stm32f0xx_syscfg.o
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Obj\stm32f0xx_tim.o
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Obj\stm32f0xx_usart.o
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Obj\stm32f0xx_wwdg.o
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Obj\system_stm32f0xx.o
+#        --redirect _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall
+#        --no_out_extension -o
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Exe\Project.out
+#        --map
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\List\Project.map
+#        --config
+#        E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\stm32f051_flash.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x800'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'1fff] {
+          rw, block CSTACK, block HEAP };
+
+No sections matched the following patterns:
+
+  rw  in "P2"
+
+
+  Section   Kind         Address   Size  Object
+  -------   ----         -------   ----  ------
+"A0":                              0xc0
+  .intvec   ro code   0x800'0000   0xc0  startup_stm32f051.o [1]
+                    - 0x800'00c0   0xc0
+
+"P1":                             0x1c6
+  .text     ro code   0x800'00c0   0xf0  system_stm32f0xx.o [1]
+  .text     ro code   0x800'01b0   0x3c  startup_stm32f051.o [1]
+  .text     ro code   0x800'01ec   0x1e  cmain.o [3]
+  .text     ro code   0x800'020a    0x4  low_level_init.o [2]
+  .text     ro code   0x800'020e    0x2  main.o [1]
+  .text     ro code   0x800'0210    0x8  exit.o [2]
+  .text     ro code   0x800'0218    0xa  cexit.o [3]
+  .text     ro code   0x800'0222    0xa  stm32f0xx_it.o [1]
+  .text     ro code   0x800'022c   0x14  exit.o [4]
+  .text     ro code   0x800'0240    0xc  cstartup_M.o [3]
+  .text     ro code   0x800'024c    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'024e    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'0250    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'0252    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'0254    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'0256    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'0258    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'025a    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'025c    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'025e    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'0260    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'0262    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'0264    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'0266    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'0268    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'026a    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'026c    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'026e    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'0270    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'0272    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'0274    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'0276    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'0278    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'027a    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'027c    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'027e    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'0280    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'0282    0x2  startup_stm32f051.o [1]
+  .text     ro code   0x800'0284    0x2  startup_stm32f051.o [1]
+                    - 0x800'0286  0x1c6
+
+"P2":                             0x400
+  CSTACK             0x2000'0000  0x400  <Block>
+    CSTACK  uninit   0x2000'0000  0x400  <Block tail>
+                   - 0x2000'0400  0x400
+
+Unused ranges:
+
+         From           To    Size
+         ----           --    ----
+   0x800'0286   0x800'ffff  0xfd7a
+  0x2000'0400  0x2000'1fff  0x1c00
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  rw data
+    ------               -------  -------
+command line/config:
+    -------------------------------------
+    Total:
+
+E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Obj: [1]
+    main.o                     2
+    startup_stm32f051.o      310
+    stm32f0xx_it.o            10
+    system_stm32f0xx.o       240
+    -------------------------------------
+    Total:                   562
+
+dl6M_tln.a: [2]
+    exit.o                     8
+    low_level_init.o           4
+    -------------------------------------
+    Total:                    12
+
+rt6M_tl.a: [3]
+    cexit.o                   10
+    cmain.o                   30
+    cstartup_M.o              12
+    -------------------------------------
+    Total:                    52
+
+shb_l.a: [4]
+    exit.o                    20
+    -------------------------------------
+    Total:                    20
+
+    Linker created                  1 024
+-----------------------------------------
+    Grand Total:             646    1 024
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+?main                    0x800'01ed        Code  Gb  cmain.o [3]
+CSTACK$$Base            0x2000'0000         --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'0400         --   Gb  - Linker created -
+HardFault_Handler        0x800'0225   0x2  Code  Gb  stm32f0xx_it.o [1]
+NMI_Handler              0x800'0223   0x2  Code  Gb  stm32f0xx_it.o [1]
+PendSV_Handler           0x800'0229   0x2  Code  Gb  stm32f0xx_it.o [1]
+Region$$Table$$Base             0x0         --   Gb  - Linker created -
+Region$$Table$$Limit            0x0         --   Gb  - Linker created -
+SVC_Handler              0x800'0227   0x2  Code  Gb  stm32f0xx_it.o [1]
+SysTick_Handler          0x800'022b   0x2  Code  Gb  stm32f0xx_it.o [1]
+SystemInit               0x800'00c1  0xd0  Code  Gb  system_stm32f0xx.o [1]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x2000'1fff        Data  Gb  <internal module>
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x2000'0000        Data  Gb  <internal module>
+__cmain                  0x800'01ed        Code  Gb  cmain.o [3]
+__exit                   0x800'022d  0x14  Code  Gb  exit.o [4]
+__iar_program_start      0x800'0241        Code  Gb  cstartup_M.o [3]
+__low_level_init         0x800'020b   0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000        Data  Gb  startup_stm32f051.o [1]
+_call_main               0x800'01f9        Code  Gb  cmain.o [3]
+_exit                    0x800'0219        Code  Gb  cexit.o [3]
+_main                    0x800'0207        Code  Gb  cmain.o [3]
+exit                     0x800'0211   0x8  Code  Gb  exit.o [2]
+main                     0x800'020f   0x2  Code  Gb  main.o [1]
+
+
+[1] = E:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F051\Obj
+[2] = dl6M_tln.a
+[3] = rt6M_tl.a
+[4] = shb_l.a
+
+    646 bytes of readonly  code memory
+  1 024 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

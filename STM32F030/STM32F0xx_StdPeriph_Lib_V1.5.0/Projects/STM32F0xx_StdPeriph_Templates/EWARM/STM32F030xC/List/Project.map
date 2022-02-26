@@ -1,0 +1,416 @@
+###############################################################################
+#
+# IAR ELF Linker V8.32.1.169/W32 for ARM                  13/Aug/2021  23:47:52
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Exe\Project.out
+#    Map file     =  
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\List\Project.map
+#    Command line =  
+#        -f C:\Users\wesle\AppData\Local\Temp\EWC4D3.tmp
+#        (G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\Boost.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\calendar.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\Filament.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\main.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\MN28016.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\scd30.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\startup_stm32f030xc.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\stm32f0xx_adc.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\stm32f0xx_can.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\stm32f0xx_cec.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\stm32f0xx_comp.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\stm32f0xx_crc.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\stm32f0xx_crs.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\stm32f0xx_dac.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\stm32f0xx_dbgmcu.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\stm32f0xx_dma.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\stm32f0xx_exti.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\stm32f0xx_flash.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\stm32f0xx_gpio.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\stm32f0xx_i2c.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\stm32f0xx_it.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\stm32f0xx_iwdg.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\stm32f0xx_misc.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\stm32f0xx_pwr.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\stm32f0xx_rcc.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\stm32f0xx_rtc.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\stm32f0xx_spi.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\stm32f0xx_syscfg.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\stm32f0xx_tim.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\stm32f0xx_usart.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\stm32f0xx_wwdg.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\system_stm32f0xx.o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj\Usart.o
+#        --redirect _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall
+#        --no_out_extension -o
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Exe\Project.out
+#        --map
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\List\Project.map
+#        --config
+#        G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\stm32f030xc_flash.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x803'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'7fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0xc0
+  .intvec            ro code   0x800'0000    0xc0  startup_stm32f030xc.o [1]
+                             - 0x800'00c0    0xc0
+
+"P1":                                      0x1e2f
+  .rodata            const     0x800'00c0   0x5f0  MN28016.o [1]
+  .text              ro code   0x800'06b0   0x42c  MN28016.o [1]
+  .text              ro code   0x800'0adc    0x10  ABImemset_small.o [4]
+  .text              ro code   0x800'0aec   0x1e0  stm32f0xx_rcc.o [1]
+  .text              ro code   0x800'0ccc    0x94  stm32f0xx_gpio.o [1]
+  .text              ro code   0x800'0d60    0x70  stm32f0xx_misc.o [1]
+  .text              ro code   0x800'0dd0    0x80  stm32f0xx_dma.o [1]
+  .text              ro code   0x800'0e50    0x88  stm32f0xx_spi.o [1]
+  .text              ro code   0x800'0ed8    0xac  Boost.o [1]
+  .text              ro code   0x800'0f84    0xdc  Filament.o [1]
+  .text              ro code   0x800'1060    0x5c  stm32f0xx_adc.o [1]
+  .text              ro code   0x800'10bc     0xe  strlen.o [4]
+  .text              ro code   0x800'10ca     0x2  startup_stm32f030xc.o [1]
+  .text              ro code   0x800'10cc    0x36  I32DivMod.o [4]
+  .text              ro code   0x800'1102     0x2  startup_stm32f030xc.o [1]
+  .text              ro code   0x800'1104   0x24c  stm32f0xx_tim.o [1]
+  .text              ro code   0x800'1350     0x2  IntDivZer.o [4]
+  .text              ro code   0x800'1352     0x2  startup_stm32f030xc.o [1]
+  .rodata            const     0x800'1354   0x23c  MN28016.o [1]
+  .text              ro code   0x800'1590   0x234  stm32f0xx_usart.o [1]
+  .text              ro code   0x800'17c4   0x164  Usart.o [1]
+  .rodata            const     0x800'1928   0x140  Usart.o [1]
+  .text              ro code   0x800'1a68   0x128  stm32f0xx_it.o [1]
+  .text              ro code   0x800'1b90    0xf0  system_stm32f0xx.o [1]
+  .text              ro code   0x800'1c80    0x88  main.o [1]
+  .text              ro code   0x800'1d08    0x3c  startup_stm32f030xc.o [1]
+  .text              ro code   0x800'1d44    0x3c  zero_init3.o [4]
+  .text              ro code   0x800'1d80    0x3c  packbits_init_single.o [4]
+  .text              ro code   0x800'1dbc    0x28  data_init.o [4]
+  .rodata            const     0x800'1de4    0x24  main.o [1]
+  .rodata            const     0x800'1e08    0x24  Usart.o [1]
+  .iar.init_table    const     0x800'1e2c    0x20  - Linker created -
+  .text              ro code   0x800'1e4c    0x1e  cmain.o [4]
+  .text              ro code   0x800'1e6a     0x4  low_level_init.o [2]
+  .text              ro code   0x800'1e6e     0x8  exit.o [2]
+  .text              ro code   0x800'1e76     0x2  startup_stm32f030xc.o [1]
+  .text              ro code   0x800'1e78     0xa  cexit.o [4]
+  .text              ro code   0x800'1e82     0x2  startup_stm32f030xc.o [1]
+  .text              ro code   0x800'1e84    0x14  exit.o [5]
+  .text              ro code   0x800'1e98     0xc  cstartup_M.o [4]
+  .text              ro code   0x800'1ea4     0x2  startup_stm32f030xc.o [1]
+  .text              ro code   0x800'1ea6     0x2  startup_stm32f030xc.o [1]
+  .text              ro code   0x800'1ea8     0x2  startup_stm32f030xc.o [1]
+  .text              ro code   0x800'1eaa     0x2  startup_stm32f030xc.o [1]
+  .text              ro code   0x800'1eac     0x2  startup_stm32f030xc.o [1]
+  .text              ro code   0x800'1eae     0x2  startup_stm32f030xc.o [1]
+  .text              ro code   0x800'1eb0     0x2  startup_stm32f030xc.o [1]
+  .text              ro code   0x800'1eb2     0x2  startup_stm32f030xc.o [1]
+  .text              ro code   0x800'1eb4     0x2  startup_stm32f030xc.o [1]
+  .text              ro code   0x800'1eb6     0x2  startup_stm32f030xc.o [1]
+  .text              ro code   0x800'1eb8     0x2  startup_stm32f030xc.o [1]
+  .text              ro code   0x800'1eba     0x2  startup_stm32f030xc.o [1]
+  .text              ro code   0x800'1ebc     0x2  startup_stm32f030xc.o [1]
+  .text              ro code   0x800'1ebe     0x2  startup_stm32f030xc.o [1]
+  .text              ro code   0x800'1ec0     0x2  startup_stm32f030xc.o [1]
+  .text              ro code   0x800'1ec2     0x2  startup_stm32f030xc.o [1]
+  .text              ro code   0x800'1ec4     0x2  startup_stm32f030xc.o [1]
+  .text              ro code   0x800'1ec6     0x2  startup_stm32f030xc.o [1]
+  .text              ro code   0x800'1ec8     0x2  startup_stm32f030xc.o [1]
+  .text              ro code   0x800'1eca     0x2  startup_stm32f030xc.o [1]
+  .rodata            const     0x800'1ecc     0x0  zero_init3.o [4]
+  .rodata            const     0x800'1ecc     0x0  packbits_init_single.o [4]
+  Initializer bytes  const     0x800'1ecc    0x23  <for P2-1>
+                             - 0x800'1eef  0x1e2f
+
+"P2", part 1 of 3:                           0x45
+  P2-1                        0x2000'0000    0x45  <Init block>
+    .data            inited   0x2000'0000    0x20  MN28016.o [1]
+    .data            inited   0x2000'0020    0x10  stm32f0xx_rcc.o [1]
+    .data            inited   0x2000'0030    0x14  system_stm32f0xx.o [1]
+    .data            inited   0x2000'0044     0x1  MN28016.o [1]
+                            - 0x2000'0045    0x45
+
+"P2", part 2 of 3:                          0x474
+  .bss               zero     0x2000'0048   0x23e  stm32f0xx_it.o [1]
+  .bss               zero     0x2000'0288   0x234  MN28016.o [1]
+                            - 0x2000'04bc   0x474
+
+"P2", part 3 of 3:                          0x400
+  CSTACK                      0x2000'04c0   0x400  <Block>
+    CSTACK           uninit   0x2000'04c0   0x400  <Block tail>
+                            - 0x2000'08c0   0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'1eef   0x803'ffff  0x3'e111
+  0x2000'0045  0x2000'0047       0x3
+  0x2000'04bc  0x2000'04bf       0x4
+  0x2000'08c0  0x2000'7fff    0x7740
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x474:
+          0x2000'0048  0x474
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x23 (50% of destination):
+           0x800'1ecc   0x23
+    1 destination range, total size 0x45:
+          0x2000'0000   0x45
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj: [1]
+    Boost.o                     172
+    Filament.o                  220
+    MN28016.o                 1 068    2 109      597
+    Usart.o                     356      356
+    main.o                      136       36
+    startup_stm32f030xc.o       302
+    stm32f0xx_adc.o              92
+    stm32f0xx_dma.o             128
+    stm32f0xx_gpio.o            148
+    stm32f0xx_it.o              296               574
+    stm32f0xx_misc.o            112
+    stm32f0xx_rcc.o             480        8       16
+    stm32f0xx_spi.o             136
+    stm32f0xx_tim.o             588
+    stm32f0xx_usart.o           564
+    system_stm32f0xx.o          240       10       20
+    -------------------------------------------------
+    Total:                    5 038    2 519    1 207
+
+dl6M_tln.a: [2]
+    exit.o                        8
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                       12
+
+m6M_tl.a: [3]
+    -------------------------------------------------
+    Total:
+
+rt6M_tl.a: [4]
+    ABImemset_small.o            16
+    I32DivMod.o                  54
+    IntDivZer.o                   2
+    cexit.o                      10
+    cmain.o                      30
+    cstartup_M.o                 12
+    data_init.o                  40
+    packbits_init_single.o       60
+    strlen.o                     14
+    zero_init3.o                 60
+    -------------------------------------------------
+    Total:                      298
+
+shb_l.a: [5]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                                            2
+    Linker created                        32    1 024
+-----------------------------------------------------
+    Grand Total:              5 368    2 551    2 233
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'1e2c          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'1e4c          --   Gb  - Linker created -
+?main                    0x800'1e4d         Code  Gb  cmain.o [4]
+ADC_Cmd                  0x800'10a3   0x12  Code  Gb  stm32f0xx_adc.o [1]
+ADC_DeInit               0x800'1061   0x1e  Code  Gb  stm32f0xx_adc.o [1]
+ADC_Init                 0x800'107f   0x24  Code  Gb  stm32f0xx_adc.o [1]
+AHBPrescTable           0x2000'0030   0x10  Data  Gb  system_stm32f0xx.o [1]
+APBAHBPrescTable        0x2000'0020   0x10  Data  Lc  stm32f0xx_rcc.o [1]
+BOOST_Init               0x800'0ed9   0x9e  Code  Gb  Boost.o [1]
+CSTACK$$Base            0x2000'04c0          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'08c0          --   Gb  - Linker created -
+CommandCompare           0x800'18eb   0x2a  Code  Gb  Usart.o [1]
+CommandTable             0x800'1e08   0x24  Data  Gb  Usart.o [1]
+DMA1_Channel2_3_IRQHandler
+                         0x800'1aab   0x30  Code  Gb  stm32f0xx_it.o [1]
+DMA_ClearITPendingBit    0x800'0e31    0x2  Code  Gb  stm32f0xx_dma.o [1]
+DMA_Cmd                  0x800'0e07   0x14  Code  Gb  stm32f0xx_dma.o [1]
+DMA_ITConfig             0x800'0e1f   0x12  Code  Gb  stm32f0xx_dma.o [1]
+DMA_Init                 0x800'0dd1   0x36  Code  Gb  stm32f0xx_dma.o [1]
+DMA_SetCurrDataCounter   0x800'0e1b    0x4  Code  Gb  stm32f0xx_dma.o [1]
+DisplayUpdateFlag       0x2000'0044    0x1  Data  Gb  MN28016.o [1]
+FILAMENT_Init            0x800'0f85   0xdc  Code  Gb  Filament.o [1]
+GPIO_Init                0x800'0ccd   0x6a  Code  Gb  stm32f0xx_gpio.o [1]
+GPIO_PinAFConfig         0x800'0d3f   0x22  Code  Gb  stm32f0xx_gpio.o [1]
+GPIO_ResetBits           0x800'0d3b    0x4  Code  Gb  stm32f0xx_gpio.o [1]
+GPIO_SetBits             0x800'0d37    0x4  Code  Gb  stm32f0xx_gpio.o [1]
+HardFault_Handler        0x800'1a6b    0x2  Code  Gb  stm32f0xx_it.o [1]
+Instructions             0x800'1928  0x140  Data  Gb  Usart.o [1]
+LCD_6x8ASCTable          0x800'1354  0x23c  Data  Gb  MN28016.o [1]
+LCD_8x16ASCTable         0x800'00c0  0x5f0  Data  Gb  MN28016.o [1]
+MN28016_ClearScreen      0x800'06b1    0xc  Code  Gb  MN28016.o [1]
+MN28016_Init             0x800'06bd  0x164  Code  Gb  MN28016.o [1]
+MN28016_RAM             0x2000'0288  0x234  Data  Gb  MN28016.o [1]
+MN28016_RAM_Put6x8Char   0x800'09f1   0x3c  Code  Gb  MN28016.o [1]
+MN28016_RAM_Put6x8Str    0x800'0a31   0x2a  Code  Gb  MN28016.o [1]
+MN28016_RAM_Put8x16Char
+                         0x800'0a5b   0x30  Code  Gb  MN28016.o [1]
+MN28016_RAM_Put8x16Str   0x800'0aa1   0x2a  Code  Gb  MN28016.o [1]
+MN28016_SPI_Refresh      0x800'0825  0x1c8  Code  Gb  MN28016.o [1]
+MN28016_SPI_Refresh::gate_control
+                        0x2000'001c    0x4  Data  Lc  MN28016.o [1]
+MN28016_SPI_Refresh::gate_control_cnt
+                        0x2000'0018    0x1  Data  Lc  MN28016.o [1]
+MN28016_SPI_Refresh::gate_index
+                        0x2000'0019    0x1  Data  Lc  MN28016.o [1]
+MN28016_SPI_buf         0x2000'0000   0x18  Data  Lc  MN28016.o [1]
+NMI_Handler              0x800'1a69    0x2  Code  Gb  stm32f0xx_it.o [1]
+NVIC_Init                0x800'0d61   0x46  Code  Gb  stm32f0xx_misc.o [1]
+PendSV_Handler           0x800'1a6f    0x2  Code  Gb  stm32f0xx_it.o [1]
+RCC_AHBPeriphClockCmd    0x800'0c3d   0x14  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_APB1PeriphClockCmd   0x800'0c65   0x14  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_APB1PeriphResetCmd   0x800'0c8d   0x14  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_APB2PeriphClockCmd   0x800'0c51   0x14  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_APB2PeriphResetCmd   0x800'0c79   0x14  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_GetClocksFreq        0x800'0aed  0x150  Code  Gb  stm32f0xx_rcc.o [1]
+Region$$Table$$Base      0x800'1e2c          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'1e4c          --   Gb  - Linker created -
+SPI_Cmd                  0x800'0e99   0x14  Code  Gb  stm32f0xx_spi.o [1]
+SPI_I2S_DMACmd           0x800'0ead    0xe  Code  Gb  stm32f0xx_spi.o [1]
+SPI_Init                 0x800'0e51   0x48  Code  Gb  stm32f0xx_spi.o [1]
+SVC_Handler              0x800'1a6d    0x2  Code  Gb  stm32f0xx_it.o [1]
+SysTick_CLKSourceConfig
+                         0x800'0da7   0x18  Code  Gb  stm32f0xx_misc.o [1]
+SysTick_Handler          0x800'1a71   0x3a  Code  Gb  stm32f0xx_it.o [1]
+SystemCoreClock         0x2000'0040    0x4  Data  Gb  system_stm32f0xx.o [1]
+SystemInit               0x800'1b91   0xd0  Code  Gb  system_stm32f0xx.o [1]
+TIM_Cmd                  0x800'1209   0x14  Code  Gb  stm32f0xx_tim.o [1]
+TIM_DeInit               0x800'1105   0xac  Code  Gb  stm32f0xx_tim.o [1]
+TIM_OC1Init              0x800'1225   0x64  Code  Gb  stm32f0xx_tim.o [1]
+TIM_OC2Init              0x800'12a1   0x6c  Code  Gb  stm32f0xx_tim.o [1]
+TIM_TimeBaseInit         0x800'11b1   0x58  Code  Gb  stm32f0xx_tim.o [1]
+USART1_IRQHandler        0x800'1adb   0x98  Code  Gb  stm32f0xx_it.o [1]
+USART1_IRQHandler::receive_cnt
+                        0x2000'0284    0x2  Data  Lc  stm32f0xx_it.o [1]
+USART1_IRQHandler::received_buf
+                        0x2000'0048  0x23c  Data  Lc  stm32f0xx_it.o [1]
+USART_ClearITPendingBit
+                         0x800'17bb    0xa  Code  Gb  stm32f0xx_usart.o [1]
+USART_Cmd                0x800'16c7   0x16  Code  Gb  stm32f0xx_usart.o [1]
+USART_DeInit             0x800'1591   0x9a  Code  Gb  stm32f0xx_usart.o [1]
+USART_GetFlagStatus      0x800'1775    0xe  Code  Gb  stm32f0xx_usart.o [1]
+USART_GetITStatus        0x800'1783   0x38  Code  Gb  stm32f0xx_usart.o [1]
+USART_ITConfig           0x800'1745   0x2a  Code  Gb  stm32f0xx_usart.o [1]
+USART_Init               0x800'162b   0x9c  Code  Gb  stm32f0xx_usart.o [1]
+USART_ReceiveData        0x800'1715    0x8  Code  Gb  stm32f0xx_usart.o [1]
+USART_ReceiverTimeOutCmd
+                         0x800'16dd   0x16  Code  Gb  stm32f0xx_usart.o [1]
+USART_SendData           0x800'170d    0x8  Code  Gb  stm32f0xx_usart.o [1]
+USART_SetReceiverTimeOut
+                         0x800'16f3   0x10  Code  Gb  stm32f0xx_usart.o [1]
+Usart_Init               0x800'17c5   0xc0  Code  Gb  Usart.o [1]
+Usart_PrintInstructions
+                         0x800'18c9   0x22  Code  Gb  Usart.o [1]
+Usart_Send_Byte          0x800'1885   0x1a  Code  Gb  Usart.o [1]
+Usart_Send_Bytes         0x800'189f   0x2a  Code  Gb  Usart.o [1]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x2000'7fff         Data  Gb  <internal module>
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x2000'0000         Data  Gb  <internal module>
+__aeabi_idiv0            0x800'1351         Code  Gb  IntDivZer.o [4]
+__cmain                  0x800'1e4d         Code  Gb  cmain.o [4]
+__exit                   0x800'1e85   0x14  Code  Gb  exit.o [5]
+__iar_data_init3         0x800'1dbd   0x28  Code  Gb  data_init.o [4]
+__iar_packbits_init_single3
+                         0x800'1d81   0x3c  Code  Gb  packbits_init_single.o [4]
+__iar_program_start      0x800'1e99         Code  Gb  cstartup_M.o [4]
+__iar_small_Memset4_word
+                         0x800'0ae1         Code  Gb  ABImemset_small.o [4]
+__iar_small_Memset_word
+                         0x800'0ae1         Code  Gb  ABImemset_small.o [4]
+__iar_small_memclr       0x800'0add         Code  Gb  ABImemset_small.o [4]
+__iar_small_memclr4      0x800'0add         Code  Gb  ABImemset_small.o [4]
+__iar_small_memclr8      0x800'0add         Code  Gb  ABImemset_small.o [4]
+__iar_small_memset       0x800'0ae1         Code  Gb  ABImemset_small.o [4]
+__iar_small_memset4      0x800'0ae1         Code  Gb  ABImemset_small.o [4]
+__iar_small_memset8      0x800'0ae1         Code  Gb  ABImemset_small.o [4]
+__iar_small_uidiv        0x800'10cd         Code  Gb  I32DivMod.o [4]
+__iar_small_uidivmod     0x800'10cd         Code  Gb  I32DivMod.o [4]
+__iar_zero_init3         0x800'1d45   0x3c  Code  Gb  zero_init3.o [4]
+__low_level_init         0x800'1e6b    0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000         Data  Gb  startup_stm32f030xc.o [1]
+_call_main               0x800'1e59         Code  Gb  cmain.o [4]
+_exit                    0x800'1e79         Code  Gb  cexit.o [4]
+_main                    0x800'1e67         Code  Gb  cmain.o [4]
+exit                     0x800'1e6f    0x8  Code  Gb  exit.o [2]
+main                     0x800'1c81   0x88  Code  Gb  main.o [1]
+strlen                   0x800'10bd         Code  Gb  strlen.o [4]
+
+
+[1] = G:\MyDesign\VFD28016\Program\STM32F030\STM32F0xx_StdPeriph_Lib_V1.5.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030xC\Obj
+[2] = dl6M_tln.a
+[3] = m6M_tl.a
+[4] = rt6M_tl.a
+[5] = shb_l.a
+
+  5 368 bytes of readonly  code memory
+  2 551 bytes of readonly  data memory
+  2 233 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
